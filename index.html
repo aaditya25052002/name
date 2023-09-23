@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Tiwari</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap icons css -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- custom js -->
+    <script type="module" defer src="./scripts/app.js"></script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="navbar_brand">Aditya Tiwari</a>
+        <button
+          title="Open Menu"
+          type="button"
+          class="navbar_toggler"
+          id="menuToggler"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <ul class="navbar_links" id="mobileMenu">
+          <li><a href="/#home">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#portfolio">Projects</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <header id="home" class="hero scroll-mt-10">
+      <div class="container">
+        <!-- text content -->
+        <div class="hero_content">
+          <h2 class="hero_title">Full Stack<br />Developer</h2>
+          <p class="hero_text">
+            blockchain and <br /> MERN stack.
+          </p>
+          <div class="hero_links">
+            <a href="https://github.com/aaditya25052002" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aditya-tiwari-53b434207/"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://devfolio.co/@adityatiwarii" target="_blank">
+              <i class="bi bi-code"></i>
+            </a>
+            <a
+              href="https://drive.google.com/drive/u/1/folders/1GDZkaRgFS33NkqEDRUDAyTepBHzhmFiS"
+              target="_blank"
+            >
+              <i class="bi bi-file-earmark-person"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- avatar -->
+        <div class="hero_avatar">
+          <img src="/images/avatar/profile.jpg" alt="Avatar" />
+        </div>
+      </div>
+    </header>
+    <!-- hero section end -->
+
+    <!-- tech stack section start -->
+    <div class="tech-stack">
+      <div class="container">
+        <h2 class="tech-stack_title">Tech Stack</h2>
+        <div class="tech-stack_divider"></div>
+        <div class="tech-stack_content">
+          <div class="tech-stack_item">
+            <img
+              src="/images/tech/javascript.svg"
+              alt="JavaScript"
+              class="w-[25px]"
+            />
+          </div>
+
+          <div class="tech-stack_item">
+            <img src="/images/tech/react.svg" alt="React JS" class="w-[30px]" />
+          </div>
+          <div class="tech-stack_item">
+            <img src="/images/tech/nextjs.svg" alt="Next JS" class="w-[30px]" />
+          </div>
+          <div class="tech-stack_item">
+            <img
+              src="/images/tech/tailwindcss.svg"
+              alt="TailwindCSS"
+              class="w-[30px]"
+            />
+          </div>
+          <div class="tech-stack_item">
+            <img src="/images/tech/nodejs.svg" alt="Node JS" class="w-[30px]" />
+          </div>
+          <div class="tech-stack_item">
+            <img
+              src="/images/tech/ethereum.svg"
+              alt="Ethereum"
+              class="w-[30px]"
+            />
+          </div>
+          <div class="tech-stack_item">
+            <img
+              src="/images/tech/express-s.svg"
+              alt="Express JS"
+              class="w-[30px]"
+            />
+          </div>
+          <div class="tech-stack_item">
+            <img src="/images/tech/mongo.png" alt="Mongo DB" class="w-[30px]" />
+          </div>
+          <div class="tech-stack_item">
+            <img
+              src="/images/tech/azure.svg"
+              alt="Azure Cloud"
+              class="w-[30px]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tech stack section end -->
+
+    <!-- about section start -->
+    <div id="about" class="about">
+      <div class="container section">
+        <!-- about image -->
+        <div class="about_img">
+          <img src="/images/avatar/banner1.jpg" alt="About Me" />
+        </div>
+        <!-- about text content -->
+        <div class="about_content">
+          <h3 class="section_subtitle mb-1">About me</h3>
+          <h2 class="section_title mb-5">Software Development Engineer!</h2>
+          <p class="about_text">
+            Hi there! I'm a software developer with a year of experience,
+            wielding the MERN stack and blockchain like a wizard! I've survived
+            3 internships and a fellowship, and guess what? I've even won 2
+            hackathons! Always hungry for knowledge and ready for more coding
+            adventures.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- about section end -->
+
+    <!-- portfolio section start -->
+    <div id="portfolio" class="portfolio">
+      <div class="container section">
+        <h3 class="section_subtitle mb-1">Projects</h3>
+        <h2 class="section_title mb-16">Some of my best projects.</h2>
+
+        <!-- portfolio cards-->
+        <div class="portfolio_cards">
+          <div class="portfolio_card">
+            <div class="portfolio_card_media">
+              <img src="/images/project/EtherDex.jpg" alt="Smart Hive" />
+            </div>
+            <div class="portfolio_card_body">
+              <div class="portfolio_card_tags">
+                <span>#Nextjs</span>
+                <span>#tailwindcss</span>
+                <span>#Polygon</span>
+                <span>#Solidity</span>
+                <span>#Blockchain</span>
+              </div>
+              <h2 class="portfolio_card_title">EtherDex</h2>
+              <p class="portfolio_card_text">
+                EtherDex is Decenteralized exchange, built specially to exchange
+                CryptoDev Tokens and Ethereum.
+              </p>
+
+              <div class="portfolio_card_links">
+                <a
+                  href="https://github.com/aaditya25052002/EtherDex"
+                  target="_blank"
+                  class="portfolio_card_link"
+                  >Source Code <i class="bi bi-code"></i>
+                </a>
+                <a
+                  href="https://ether-dex.vercel.app/"
+                  target="_blank"
+                  class="portfolio_card_link primary"
+                  >Preview <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_card">
+            <div class="portfolio_card_media">
+              <img src="/images/project/smarthive.webp" alt="Track Taka" />
+            </div>
+            <div class="portfolio_card_body">
+              <div class="portfolio_card_tags">
+                <span>#react js</span>
+                <span>#tailwindcss</span>
+                <span>#NFTs</span>
+                <span>#Real Estate</span>
+                <span>#Blockchain</span>
+              </div>
+              <h2 class="portfolio_card_title">Smart Hive</h2>
+              <p class="portfolio_card_text">
+                Smart Hive is Decenteralized Autonomous Organisation build for
+                Societys, It also contains an inbuilt Property NFT Marketplace
+                for buying property in form of NFT.
+              </p>
+
+              <div class="portfolio_card_links">
+                <a
+                  href="https://github.com/aaditya25052002/HousingNFTs"
+                  target="_blank"
+                  class="portfolio_card_link"
+                  >Source Code <i class="bi bi-code"></i>
+                </a>
+                <a
+                  href="https://devfolio.co/projects/smarthive-d43a"
+                  target="_blank"
+                  class="portfolio_card_link primary"
+                  >Preview <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_card">
+            <div class="portfolio_card_media">
+              <img src="/images/project/Jimposting.jpg" alt="ZenBlog" />
+            </div>
+            <div class="portfolio_card_body">
+              <div class="portfolio_card_tags">
+                <span>#ReactJS</span>
+                <span>#MaterialUI</span>
+                <span>#NodeJS</span>
+                <span>#ExpressJS</span>
+                <span>#MongoDB</span>
+                <span>#AzureAppServices</span>
+              </div>
+              <h2 class="portfolio_card_title">JimPosting</h2>
+              <p class="portfolio_card_text">
+                JimPosting is a social media application build specially for our
+                gym bros to flex and appreciate theri jimbros.
+              </p>
+
+              <div class="portfolio_card_links">
+                <a
+                  href="https://github.com/aaditya25052002/JimPosting"
+                  target="_blank"
+                  class="portfolio_card_link"
+                  >Source Code <i class="bi bi-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_card">
+            <div class="portfolio_card_media">
+              <img src="/images/project/Netflix.jpg" alt="Movie Mania" />
+            </div>
+            <div class="portfolio_card_body">
+              <div class="portfolio_card_tags">
+                <span>#reactjs</span>
+                <span>#Firebase</span>
+                <span>#api</span>
+              </div>
+              <h2 class="portfolio_card_title">Netflix</h2>
+              <p class="portfolio_card_text">
+                A clone app of your very own Netflix which serves the top rated
+                movies based on IMDB ratings.
+              </p>
+
+              <div class="portfolio_card_links">
+                <a
+                  href="https://github.com/aaditya25052002/Netflix-clone-app"
+                  target="_blank"
+                  class="portfolio_card_link"
+                  >Source Code <i class="bi bi-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio section end -->
+
+    <!-- contact section start -->
+    <div id="contact" class="contact bg-white">
+      <div class="container section">
+        <h3 class="section_subtitle mb-1">Contact</h3>
+        <h2 class="section_title mb-5">Email me!</h2>
+
+        <!-- contact cards -->
+        <div class="contact_cards mt-16">
+          <div class="contact_card">
+            <div class="contact_card_icon">
+              <i class="bi bi-at text-3xl md:text-4xl"></i>
+            </div>
+            <div class="contact_card_body">
+              <h2 class="contact_card_title">Email</h2>
+              <a
+                href="mailto:adityaatiwariii@outlook.com"
+                target="_blank"
+                class="contact_card_text"
+                >adityaatiwariii@outlook.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer_text">
+          No matter what they say, <br />words and ideas can change the world.
+        </p>
+
+        <div class="footer_links">
+          <a href="https://twitter.com/adityatiwarii25" target="_blank">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/adityatiwarii25/" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+  </body>
+</html>
